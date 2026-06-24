@@ -2962,3 +2962,24 @@ html {
 .sharepoint-picker-bg {
   background-color: #f5f5f5;
 }
+
+/* ─────────────────────────────────────────────────────────────
+ * StereumLabs brand overrides — keep at the very end of the file.
+ * Single contiguous block so it rebases cleanly on top of upstream.
+ * Brand color from the logo gradient (#657AFF → #A4A3FF).
+ * ───────────────────────────────────────────────────────────── */
+:root {
+  --brand-purple: #657aff;
+}
+html {
+  --brand-purple: #657aff;
+  --surface-submit: #657aff;
+  --surface-submit-hover: #4f63e0;
+  --ring-primary: #657aff;
+}
+.dark {
+  --brand-purple: #657aff;
+  --surface-submit: #657aff;
+  --surface-submit-hover: #4f63e0;
+  --ring-primary: #657aff;
+}
